@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBook Store</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        body { line-height: 1.6; color: #333; background: #f4f4f4; }
+        header, footer { background: #333; color: #fff; text-align: center; padding: 20px; }
+        nav { background: #555; color: #fff; padding: 10px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+        nav a:hover { color: #ff9800; }
+        .container { width: 80%; margin: 0 auto; padding: 20px; }
+        .ebook-card { background: #fff; padding: 20px; margin: 20px 0; box-shadow: 0 0 10px #ccc; }
+        .ebook-card h2 { font-size: 24px; }
+        .ebook-card p { font-size: 18px; }
+        .btn { display: inline-block; background: #28a745; color: #fff; padding: 10px 20px; text-decoration: none; }
+        .btn:hover { background: #218838; }
+        footer { margin-top: 20px; }
+        form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; }
+        form button { background: #333; color: #fff; padding: 10px 20px; border: none; cursor: pointer; }
+        form button:hover { background: #555; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📚 My eBook Store</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#store">Store</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome to My eBook Store!</h2>
+        <p>Discover amazing eBooks on business, self-help, and more. Start your reading journey today!</p>
+        <a href="#store" class="btn">Explore eBooks</a>
+    </div>
+
+    <div class="container" id="store">
+        <h2>📚 eBooks Collection</h2>
+        <div class="ebook-card">
+            <h2>How to Start a Business with ₹3000</h2>
+            <p>Learn practical steps to launch a profitable business with minimal investment.</p>
+            <a href="#" class="btn">Buy Now - ₹199</a>
+        </div>
+        <div class="ebook-card">
+            <h2>AI-Powered Digital Products</h2>
+            <p>Step-by-step guide to create and sell AI products online.</p>
+            <a href="#" class="btn">Buy Now - ₹299</a>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>📩 Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My eBook Store. All Rights Reserved.</p>
+        <p>Follow us: <a href="#" style="color:#ff9800;">Instagram</a> | <a href="#" style="color:#ff9800;">Facebook</a> | <a href="#" style="color:#ff9800;">Twitter</a></p>
+    </footer>
+</body>
+</html>
